@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  margin: 50px;
+}
+
+
+li{
+  font-size: 20px;
+  margin: 30px;
+  list-style-type: circle;
+}
+
+li:hover{
+  list-style-type: disc;
+}
+
+a{
+
+  text-decoration: none;
+  color: black;
+  
+}
+a:hover {
+  color: rgb(251, 255, 0);
+  text-shadow: 0 0 7px rgb(255, 0, 119); 
+  transition: all 130msrgb(0, 255, 115);
+  font-style: italic;
+  text-decoration: wavy underline 1px rgb(255, 0, 119);
+
+}
+
+img{
+  margin: 100px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin{
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
