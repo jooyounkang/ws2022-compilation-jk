@@ -9,6 +9,18 @@
   text-align: center;
 }
 
+
+
+span{
+  display:none;
+}
+
+.notdone:hover span{
+  display:block;
+  color: red;
+}
+ 
+
 h1{
   font-size: 30px;
   margin: 50px;
